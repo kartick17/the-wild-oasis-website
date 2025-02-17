@@ -36,6 +36,7 @@ const authConfig = {
   pages: {
     signIn: '/login',
   },
+  secret: process.env.NEXT_PUBLIC_SECRET,
 }
 
 export const {
